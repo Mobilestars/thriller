@@ -1,0 +1,16 @@
+name: Thriller
+main: de.scholle.thriller.Main
+version: 1.0
+api-version: 1.21
+author: Scholle
+
+commands:
+  thriller:
+    description: Thriller Admin Command
+    usage: /thriller give
+    permission: thriller.op
+
+permissions:
+  thriller.op:
+    description: Zugriff auf Thriller-Befehle
+    default: op

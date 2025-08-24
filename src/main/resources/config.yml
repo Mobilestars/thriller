@@ -1,0 +1,18 @@
+thriller-item:
+  material: NETHERITE_PICKAXE      # Default-Material
+  name: "§dThriller Pickaxe"       # Anzeige-Name
+  custom-model-data: 1001          # für eigenes Resourcepack (optional)
+
+recipe:
+  enabled: true
+  shape:
+    - "NNN"
+    - " S "
+    - " S "
+  ingredients:
+    N: NETHERITE_INGOT
+    S: STICK
+
+resourcepack:
+  url: ""  # optional, falls du CustomModelData-Pack hast
+  sha1: ""
